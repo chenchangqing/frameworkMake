@@ -16,7 +16,8 @@
 		E6CDAAB81BEA72EF001B875C /* ImageViewerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E6CDAAB71BEA72EF001B875C /* ImageViewerTests.m */; };
 		E6CDAAC31BEA72EF001B875C /* ImageViewerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E6CDAAC21BEA72EF001B875C /* ImageViewerUITests.m */; };
 		E6CDAAD11BEA732B001B875C /* sampleImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E6CDAAD01BEA732B001B875C /* sampleImage.jpg */; };
-		E6CDAAD31BEA7379001B875C /* RWUIControls.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6CDAAD21BEA7379001B875C /* RWUIControls.framework */; };
+		E6D2FAC11BEA7C700029FE88 /* RWUIControls.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E6D2FABF1BEA7C700029FE88 /* RWUIControls.bundle */; };
+		E6D2FAC21BEA7C700029FE88 /* RWUIControls.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6D2FAC01BEA7C700029FE88 /* RWUIControls.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +55,8 @@
 		E6CDAAC21BEA72EF001B875C /* ImageViewerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageViewerUITests.m; sourceTree = "<group>"; };
 		E6CDAAC41BEA72EF001B875C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E6CDAAD01BEA732B001B875C /* sampleImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sampleImage.jpg; sourceTree = "<group>"; };
-		E6CDAAD21BEA7379001B875C /* RWUIControls.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RWUIControls.framework; sourceTree = "<group>"; };
+		E6D2FABF1BEA7C700029FE88 /* RWUIControls.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = RWUIControls.bundle; sourceTree = "<group>"; };
+		E6D2FAC01BEA7C700029FE88 /* RWUIControls.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RWUIControls.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E6CDAAD31BEA7379001B875C /* RWUIControls.framework in Frameworks */,
+				E6D2FAC21BEA7C700029FE88 /* RWUIControls.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,6 +108,8 @@
 		E6CDAA9C1BEA72EE001B875C /* ImageViewer */ = {
 			isa = PBXGroup;
 			children = (
+				E6D2FABF1BEA7C700029FE88 /* RWUIControls.bundle */,
+				E6D2FAC01BEA7C700029FE88 /* RWUIControls.framework */,
 				E6C5262D1BEA75A600249FE5 /* Main.storyboard */,
 				E6C5262A1BEA759E00249FE5 /* RWViewController.h */,
 				E6C5262B1BEA759E00249FE5 /* RWViewController.m */,
@@ -115,7 +119,6 @@
 				E6CDAAA91BEA72EE001B875C /* Assets.xcassets */,
 				E6CDAAAB1BEA72EE001B875C /* LaunchScreen.storyboard */,
 				E6CDAAAE1BEA72EE001B875C /* Info.plist */,
-				E6CDAAD21BEA7379001B875C /* RWUIControls.framework */,
 				E6CDAA9D1BEA72EE001B875C /* Supporting Files */,
 			);
 			path = ImageViewer;
@@ -253,6 +256,7 @@
 				E6CDAAAD1BEA72EE001B875C /* LaunchScreen.storyboard in Resources */,
 				E6CDAAAA1BEA72EE001B875C /* Assets.xcassets in Resources */,
 				E6CDAAD11BEA732B001B875C /* sampleImage.jpg in Resources */,
+				E6D2FAC11BEA7C700029FE88 /* RWUIControls.bundle in Resources */,
 				E6C5262F1BEA75A600249FE5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
